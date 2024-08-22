@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Notas</title>
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+            width: 15%;
+        }
+
+        th {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        input[type="number"] {
+            width: 90%;
+            height: 30px;
+            box-sizing: border-box;
+            text-align: center;
+            border: none;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Notas</h1>
+    <table>
+        <tr>
+            <th>Disciplinas</th>
+            <th>1ª Avaliação</th>
+            <th>2ª Avaliação</th>
+            <th>3ª Avaliação</th>
+            <th>4ª Avaliação</th>
+            <th>Média</th>
+        </tr>
+        <tr>
+            <th>Matématica</th>
+            <td><input type="number" name="NOTAM1" min="0" /></td>
+            <td><input type="number" name="NOTAM2" min="0" /></td>
+            <td><input type="number" name="NOTAM3" min="0" /></td>
+            <td><input type="number" name="NOTAM4" min="0" /></td>
+            <td><input type="number" name="MEDIAM" min="0" /></td>
+        </tr>
+        <tr>
+            <th>Português</th>
+            <td><input type="number" name="NOTAp1" min="0" /></td>
+            <td><input type="number" name="NOTAp2" min="0" /></td>
+            <td><input type="number" name="NOTAp3" min="0" /></td>
+            <td><input type="number" name="NOTAp4" min="0" /></td>
+            <td><input type="number" name="MEDIAp" min="0" /></td>
+        </tr>
+        <tr>
+            <th>Geografia</th>
+            <td><input type="number" name="NOTAg1" min="0" /></td>
+            <td><input type="number" name="NOTAg2" min="0" /></td>
+            <td><input type="number" name="NOTAg3" min="0" /></td>
+            <td><input type="number" name="NOTAg4" min="0" /></td>
+            <td><input type="number" name="MEDIAg" min="0" /></td>
+        </tr>
+        <tr>
+            <th>História</th>
+            <td><input type="number" name="NOTAh1" min="0" /></td>
+            <td><input type="number" name="NOTAh2" min="0" /></td>
+            <td><input type="number" name="NOTAh3" min="0" /></td>
+            <td><input type="number" name="NOTAh4" min="0" /></td>
+            <td><input type="number" name="MEDIAh" min="0" /></td>
+        </tr>
+        <tr>
+            <th>Média Geral:
+            <td><input type="number" name="mediageral" min="0" </td>
+                </th>
+        </tr>
+
+    </table>
+    <h3><a href="index.html">Voltar</a></h3>
+</body>
+
+</html>

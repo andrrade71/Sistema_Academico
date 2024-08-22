@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Frequência</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        input[type="number"] {
+            width: 50px;
+            text-align: center;
+            vertical-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Frequência</h1>
+
+    <table>
+        <tr>
+            <th>Disciplinas</th>
+            <th>Faltas</th>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td><input type="number" name="FaltasM" min="0" /></td>
+        </tr>
+        <tr>
+            <td>Português</td>
+            <td><input type="number" name="FaltasP" min="0" /></td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td><input type="number" name="FaltasG" min="0" /></td>
+        </tr>
+        <tr>
+            <td>História</td>
+            <td><input type="number" name="FaltasH" min="0" /></td>
+        </tr>
+        <tr>
+            <td>Total de Faltas</td>
+            <td><input type="number" name="FaltasT" min="0" /></td>
+        </tr>
+    </table>
+    <h3><a href="index.html">Voltar</a></h3>
+</body>
+
+</html>
